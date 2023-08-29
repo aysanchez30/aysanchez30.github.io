@@ -1,0 +1,25 @@
+/* Structure */
+body {
+    background-color: darkcyan;
+}
+
+/* Tables */
+table{
+    border-collapse: collapse;
+}
+td, th {
+    border: 2px solid red;
+    background-color: azure;
+}
+th{
+    background-color: aqua;
+}
+
+/* Typography */
+body {
+    font-family:cursive;
+    color: chartreuse;
+}
+p {
+    color:darkmagenta;
+}
