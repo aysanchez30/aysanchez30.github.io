@@ -1,0 +1,34 @@
+/* Structure for homepage */
+body {
+    background: #E2F9EA;
+}
+
+/* Typography */
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:#78E29C;
+}
+p {
+    color:lavenderblush;
+}
+#content {
+    background: #6DA981;
+    width: 100%;
+    margin:auto;
+    padding:0px 2px;
+    border-radius: 5px;
+}
+/* unvisited link */
+a:link {
+    color:darkgreen;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:lavenderblush;
+  }
+
+  /* link decoration */
+  a {
+    text-decoration: none;
+  }
