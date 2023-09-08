@@ -1,0 +1,94 @@
+/* Structure */
+
+body {
+    background-color: azure;
+}
+
+#main-header {
+    background-color:darkslategrey;
+}
+#main-content {
+    background-color: cadetblue;
+   padding: 2%;
+}
+#main-footer {
+    background-color:darkcyan;
+}
+.padded-area {
+    padding: 5px;
+    margin:auto;
+}
+.col1of2 {
+    background-color: #766e6e;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+.col1of3, 
+.col2of3, 
+.col3of3 {
+    background-color: #eee;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+    
+}
+#main-images {
+    display: block;
+    margin: 0 auto;
+    
+}
+
+/* Main Navigation */
+#main-nav ul {
+    padding-left: 0px;
+}
+#main-nav li{
+    list-style-type: none;
+    padding: 5px;
+    background-color: white;
+    border-bottom: black;
+}
+#main-nav a {
+    text-decoration:none;
+    color:black;
+}
+#main-nav a:hover {
+    border-bottom: 1px solid grey;
+}
+
+/* Typography*/
+body {
+    font-family: optima;
+}
+#main-header h1,
+#main-content h1, 
+#main-nav {
+    text-align: center;
+}
+
+/*Larger Resolution*/
+@media only screen and (min-width: 600px) {
+    #main-nav ul,
+    .flex.container {
+        display: flex;
+    }
+    .columns {
+        display: flex;
+    
+    }
+    #main-nav li,
+    .col1of2,
+    .col1of3, 
+    .col1of4, 
+    .col2of4 {
+        flex: 1;
+    }
+    .col2of3,
+     .col2of4 {
+        flex: 2;
+    }
+    .main-images {
+       flex: 1;
+    }
+}
