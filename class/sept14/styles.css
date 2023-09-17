@@ -1,0 +1,40 @@
+/* Structure */
+ body {
+    background-color: blue;
+ }
+
+ /* Animation */
+ #square {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+ 
+
+}
+.anim-square {   
+    position: relative;
+    animation-name: anim-square;
+    animation-duration: 1s;
+    animation-iteration-count: 1s;
+}
+
+ @keyframes anim-square {
+    0% {
+        background-color: cornflowerblue;
+        top: 0px;
+    }
+    50% {
+        background-color: red ;
+        top: 100px;
+    }
+    100% {
+        background-color: aqua;
+        top: 0px;
+    }
+ }
+
+ /* Typography */
+
+ /* Media Query */

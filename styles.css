@@ -5,7 +5,7 @@ body {
 .col1,
 .col2,
 .col3 {
-  background-color: #bda983;
+  background-color: rgb(187, 143, 157);
   padding: 5px;
   margin: 5px;
   border-radius: 2px;
@@ -20,13 +20,13 @@ body {
 /* Typography */
 body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:#78E29C;
+    color:rgb(242, 197, 194);
 }
 p {
     color:lavenderblush;
 }
 #content {
-    background: #6DA981;
+    background: rgb(98, 177, 163);
     width: 100%;
     margin:auto;
     padding:0px 2px;
@@ -63,6 +63,6 @@ a:link {
   }
   .columns {
       display: flex;
-  
+      flex-wrap: wrap;
   }
 }
