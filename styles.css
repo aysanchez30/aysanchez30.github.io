@@ -4,7 +4,8 @@ body {
 }
 .col1,
 .col2,
-.col3 {
+.col3,
+.col4 {
   background-color: rgb(187, 143, 157);
   padding: 5px;
   margin: 5px;
@@ -24,7 +25,8 @@ body {
 }
 p {
     color:lavenderblush;
-}
+    margin: 10px;
+  }
 #content {
     background: rgb(98, 177, 163);
     width: 100%;
@@ -44,7 +46,7 @@ p {
 }
 /* unvisited link */
 a:link {
-    color:darkgreen;
+    color:coral;
   }
   
   /* visited link */
@@ -64,5 +66,6 @@ a:link {
   .columns {
       display: flex;
       flex-wrap: wrap;
-  }
+      align-content: space-between;
+      }
 }

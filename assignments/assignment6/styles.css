@@ -1,0 +1,51 @@
+/* Structure */
+
+body {
+    background-color: azure;
+}
+
+#main-header {
+    background-color:rgb(227, 107, 189);
+}
+#main-content {
+    background-color: rgb(253, 221, 245);
+   padding: 2%;
+}
+#main-footer {
+    background-color:rgb(139, 22, 143);
+}
+.padded-area {
+    padding: 5px;
+    margin:auto;
+    text-align: center;
+}
+.col1of3 {
+    background-color: #9e0774;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+
+/* Typography*/
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+#main-header h1,
+#main-content h1 {
+    text-align: center;
+}
+
+/*Larger Resolution*/
+@media only screen and (min-width: 600px) {
+    .flex.container {
+        display: flex;
+    }
+    .columns {
+        display: flex;
+    
+    }
+    .col1of3 {
+        flex: 1;
+    }
+}
