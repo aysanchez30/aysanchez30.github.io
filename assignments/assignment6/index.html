@@ -17,18 +17,40 @@
             <section class="col1of3">
                 <header class="padded-area">
                     <h1>Hide and Seek</h1>
-                    <button onclick="showFunction()">Show</button>
-                    <img src=""
+                    <button id="button-show">Show</button>
+                    <button id="button-hide">Hide</button>
+                    <img src="images/kittyCat.png" id="bean">
+                    <div id="bean">Kitty Cat</div>
                 </header>
             </section>
+            
             <section class="col1of3">
                 <header class="padded-area">
                     <h1>Animate</h1>
                 </header>
+                <div id="heart" class="heart"></div>
+                <button id="animate-button">Animate Heart</button>
             </section>
+
             <section class="col1of3">
                 <header class="padded-area">
                     <h1>Input</h1>
+                    <p>
+                        <ul>
+                        <li><label for="txt-product">Product:</label>
+                        <input type="text" id="txt-product"></li>
+
+                        <li><label for="txt-comment">Comment:</label>
+                        <input type="text" id="comments"></li>
+
+                        <li><label for="txt-rating">Rating:</label>
+                        <input type="text" id="txt-rating"></li>
+
+                        <li><label for="txt-user-name">Username:</label>
+                        <input type="text" id="txt-user-name"></li>
+                    </ul>
+                    </p>
+                    <button id="add-comment">Add Comment</button>
                 </header>
             </section>
         </div>

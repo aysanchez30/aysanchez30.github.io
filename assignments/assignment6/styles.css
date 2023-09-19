@@ -25,7 +25,14 @@ body {
     margin: 5px;
     border-radius: 2px;
 }
-
+#bean {
+    display: none;
+    align-content: center;
+}
+ul {
+    list-style: none;
+    text-align: left;
+}
 
 /* Typography*/
 body {
