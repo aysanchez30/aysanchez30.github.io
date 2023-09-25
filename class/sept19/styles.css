@@ -1,0 +1,93 @@
+/* Structure */
+
+body {
+    background-color: azure;
+}
+
+#main-header {
+    background-color:darkmagenta;
+}
+#main-content {
+    background-color: cadetblue;
+}
+#main-footer {
+    background-color:darkcyan;
+}
+.padded-area {
+    padding: 5px;
+    margin:auto;
+}
+.info {
+    border: 2px solid green;
+    background: grey;
+}
+.info header {
+    background-color: cornflowerblue;
+    margin: 0 auto;
+}
+
+/* Main Navigation */
+#main-nav ul {
+    padding-left: 0px;
+}
+#main-nav li{
+    list-style-type: none;
+    /*display: inline-block; /*puts links in line horizontal*/
+}
+#main-nav a {
+    text-decoration:none;
+    color:black;
+}
+#main-nav a:hover {
+    border-bottom: 1px solid white;
+}
+
+/* Form */
+label, input {
+    display: block;
+    text-align: right;
+    padding: 5px;
+}
+label {
+    width: 100px;
+    display: block;
+}
+
+
+/* Typography*/
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#main-header, 
+#nav-items {
+    text-align: center;
+}
+
+#hamburger {
+    width: 1px;
+    background-color: black;
+
+}
+.hide-small {
+    display: none;
+}
+
+/*Larger Resolution*/
+@media only screen and (min-width: 600px) {
+    #main-nav li {
+        display: inline-block;
+    }
+    .columns {
+        display: flex;}
+    .col1of2 {
+        flex: 1
+    }
+    #hamburger {
+        display: none;
+    }
+    .hide-small {
+        display: block;
+    }
+
+}
