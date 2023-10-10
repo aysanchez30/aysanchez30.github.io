@@ -1,5 +1,4 @@
 /* Main Structure */
-
 body {
     background-color: #FEF8FC;
 }
@@ -48,23 +47,60 @@ body {
 }
 
 /* Services Page*/
+#services-main {
+    padding-right: 3%;
+    padding-left: 3%
+}
 #services-header {
     background-color: pink;
     font-family: "Trirong", serif, bold;
     padding-right: 5%;
-    text-align: center;
-    display: flex;
-    padding-top: 5
-
+    padding-left: 2%;
+    text-align: left;
 }
-#services-container {
+
+#services-container1,
+#services-container2,
+#services-container3,
+#services-container4 {
     background-color: pink;
     font-family: "Trirong", serif, bold;
-    padding-left: 7%;
-    display: flex;
-    padding: 5%
+    text-align: left;
+    margin: 2%;
+    padding: 2%;
+    
 }
+#service-img1,
+#service-img2, 
+#service-img3,
+#service-img4 {
+    margin-left: 88%;
+    display: flex;
+    max-width: 100%;
 
+}
+/* Contact Page */
+#contact-main {
+    font-family: "Trirong", serif, bold;
+}
+.contact-padded {
+    padding: 5px;
+    margin:auto;
+}
+.contact-col1of2 {
+    background-color: pink;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+.contact-col1of3, 
+.contact-col2of3, 
+.contact-col3of3 {
+    background-color: #eee;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
 
 /* Main Navigation */
 #nav-exercises ul {
@@ -170,5 +206,19 @@ body {
     #hamburger div {
         display: none;
     }
-
+/* Contact Page */
+.contact-flex,
+.contact-columns {
+    display: flex;
+}
+.contact-col1of2,
+.contact-col1of3, 
+.contact-col1of4, 
+.contact-col2of4 {
+    flex: 1;
+}
+.col2of3,
+ .col2of4 {
+    flex: 2;
+}
 }
