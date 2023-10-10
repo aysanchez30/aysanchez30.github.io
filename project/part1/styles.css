@@ -1,4 +1,4 @@
-/* Structure */
+/* Main Structure */
 
 body {
     background-color: #FEF8FC;
@@ -20,6 +20,51 @@ body {
     padding-right: 5%;
     margin: 0;
 }
+/* About Page */
+#about-statement {
+    font-family: "Trirong", serif, bold;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+#team-section {
+    font-family: "Trirong", serif, bold;
+    padding-left: 5%;
+    padding-right: 40%;
+    padding-top: 1%;
+    padding-bottom: 8%;
+}
+#team-section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#team-section li {
+    padding-top: 4%;
+}
+#teams-img {
+    border-width: 3px;
+    border-color: black;
+}
+
+/* Services Page*/
+#services-header {
+    background-color: pink;
+    font-family: "Trirong", serif, bold;
+    padding-right: 5%;
+    text-align: center;
+    display: flex;
+    padding-top: 5
+
+}
+#services-container {
+    background-color: pink;
+    font-family: "Trirong", serif, bold;
+    padding-left: 7%;
+    display: flex;
+    padding: 5%
+}
+
 
 /* Main Navigation */
 #nav-exercises ul {
