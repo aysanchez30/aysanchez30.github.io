@@ -1,0 +1,96 @@
+/* Structure */
+body {
+    background-color: rgb(251, 221, 251);
+}
+#main-content {
+    background-color: rgb(78, 19, 76);
+    padding: 2%;
+    margin: 10%;;
+}
+.padded-area {
+    padding: 5px;
+    margin:auto;
+}
+#column1, 
+#column2 {
+    background-color: #ae63bd;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+#slideshow,
+#rainbow {
+    background-color: #eee;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+    
+}
+/* Rainbow */
+#draw-button {
+    margin: 3%;
+    padding: 10px;
+}
+
+/* Typography*/
+body,
+#main-header {
+    font-family: optima;
+}
+#main-header,
+#main-content h1 {
+    text-align: center;
+}
+.hidden {
+    display: none;
+}
+/* Slideshow */
+
+#slideshow {
+    background: white;
+    max-width: 100%;
+    text-align: center;
+}
+.slideHide {
+    animation-name: slideOut;
+    animation-duration: 2s;
+}
+
+@keyframes slideOut {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+/*Larger Resolution*/
+@media only screen and (min-width: 600px) {
+    #main-nav ul,
+    .flex.container {
+        display: flex;
+    }
+    #columns {
+        display: flex;
+    
+    }
+    #main-nav li,
+    #column1, 
+    #column2 {
+        flex: 1;
+    }
+    #slideshow {
+        flex: 2;
+    }
+}
