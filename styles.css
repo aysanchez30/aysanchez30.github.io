@@ -1,8 +1,21 @@
-Structure for homepage
-body {
-    background: #E2F9EA;
+/* Main Page */
+#project,
+#assignments {
+  background-color: #de5499;
+  margin: 6%;
+  padding: 5%;
+  text-align: center;
 }
-.col1,   /* need to figure out how to keep same width!!!*/
+
+/* Assignments Page */
+body {
+    background: #f2ebe9;
+}
+.columns {
+  margin: 2%;
+}
+
+.col1,  
 .col2,
 .col3,
 .col4, 
@@ -10,7 +23,7 @@ body {
 .col6,
 .col7,
 .col8 {
-  background-color: rgb(187, 143, 157);
+  background-color: #eddcd9;
   padding: 5px;
   margin: 5px;
   border-radius: 2px;
@@ -24,15 +37,15 @@ body {
 
 /* Typography */
 body {
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color:rgb(242, 197, 194);
+    font-family: Raleway;
+    color: black;
 }
 p {
-    color:lavenderblush;
+    color:black;
     margin: 10px;
   }
 #content {
-    background: rgb(98, 177, 163);
+    background: #264143;
     width: 100%;
     margin:auto;
     padding:0px 2px;
@@ -48,14 +61,28 @@ p {
 .name {
   padding-left: 2px;
 }
+.main-headers {
+  padding-bottom: 12%;
+  font-size: 20px;
+  text-decoration: underline;
+
+}
+.description {
+  text-align: center;
+}
+/* Project Section */
+
+
+
+
 /* unvisited link */
 a:link {
-    color:whitesmoke;
+    color:black;
   }
   
   /* visited link */
   a:visited {
-    color:lavenderblush;
+    color: grey;
   }
 
   /* link decoration */
@@ -71,7 +98,8 @@ a:link {
       display: flex;
       flex-wrap: wrap;
       align-content: space-between;
-      }
+    }
+
   .col1,
   .col2, 
   .col3,
@@ -79,8 +107,15 @@ a:link {
   .col5, 
   .col6,
   .col7,
-  .col8 {
+  .col8, 
+  #project,
+  #assignments {
     flex-wrap: wrap;
     flex: 1;
   }
-}
+  #main-columns {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    }
+} 
