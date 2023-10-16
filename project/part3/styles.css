@@ -1,0 +1,224 @@
+/* Main Structure */
+body {
+    background-color: #FEF8FC;
+}
+
+#main-header {
+    background-color: #F9B7DE;
+    border-radius: 100px;
+    margin-bottom: 2%;    
+}
+#main-content {
+    background-color: #FEF8FC;
+    padding: 2%;
+}
+.padded-area {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+}
+/* About Page */
+#about-statement {
+    font-family: "Trirong", serif, bold;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+#team-section {
+    font-family: "Trirong", serif, bold;
+    padding-left: 5%;
+    padding-right: 40%;
+    padding-top: 1%;
+    padding-bottom: 8%;
+}
+#team-section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#team-section li {
+    padding-top: 4%;
+}
+#teams-img {
+    border-width: 3px;
+    border-color: black;
+}
+
+/* Services Page*/
+#services-main {
+    padding-right: 3%;
+    padding-left: 3%
+}
+#services-header {
+    background-color: pink;
+    font-family: "Trirong", serif, bold;
+    padding-right: 5%;
+    padding-left: 2%;
+    text-align: left;
+}
+
+#services-container1,
+#services-container2,
+#services-container3,
+#services-container4 {
+    background-color: pink;
+    font-family: "Trirong", serif, bold;
+    text-align: left;
+    margin: 2%;
+    padding: 2%;
+    
+}
+#service-img1,
+#service-img2, 
+#service-img3,
+#service-img4 {
+    margin-left: 88%;
+    display: flex;
+    max-width: 100%;
+
+}
+/* Contact Page */
+#contact-main {
+    font-family: "Trirong", serif, bold;
+}
+.contact-padded {
+    padding: 5px;
+    margin:auto;
+}
+.contact-col1of2 {
+    background-color: pink;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+.contact-col1of3, 
+.contact-col2of3, 
+.contact-col3of3 {
+    background-color: #eee;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 2px;
+}
+
+/* Main Navigation */
+#nav-exercises ul {
+    padding-left: 0px;
+    margin: 0;
+}
+#nav-exercises li{
+    list-style-type: none;
+    padding: 0px;
+    background-color:#FEF8FC;
+    border-bottom: black;
+}
+#nav-exercises a {
+    text-decoration:none;
+    color: black;
+}
+#nav-exercises a:hover {
+    border-bottom: 1px solid grey;
+}
+
+/*Button Nav */
+.schedule-button {
+    font-family: "Trirong", serif, bold;
+    width: 600px; 
+    height:60px; 
+    font-size: 25px; 
+    background-color: #F983CA;
+    border-color: black;
+    border-width: 1px;
+    white-space: nowrap;
+  }
+.button-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 10%; 
+}
+/* Images */
+#main-img {
+    padding-bottom: 2%;
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+}
+.cart-img {
+    padding: 1px;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    left: 95%;
+}
+
+/* Typography*/
+#main-header {
+    font-family: "Trirong", serif;
+    font-size: large;
+    color: black;
+}
+#nav-exercises a {    
+    font-family: palatino;
+    font-size: small;
+    color: black;
+
+}
+
+#main-header h1,
+#main-content h1, 
+#nav-exercises,
+.schedule-button {
+    text-align: center;
+}
+#main-services {
+    font-family: "Trirong", serif;
+    font-size: 18px;
+     padding-left: 7%;
+    padding-right: 7%;
+
+}
+#main-services h2 {
+    font-family: "Trirong", serif, bold;
+    font-size: 22px;
+    padding-bottom: 1%;
+    padding-top: 3%;
+
+}
+
+#hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+
+/*Larger Resolution*/
+@media only screen and (min-width: 600px) {
+    #nav-exercises ul {
+        display: flex;
+    }
+    #nav-exercises li {
+        flex: 1;
+    }
+    #hamburger div {
+        display: none;
+    }
+/* Contact Page */
+.contact-flex,
+.contact-columns {
+    display: flex;
+}
+.contact-col1of2,
+.contact-col1of3, 
+.contact-col1of4, 
+.contact-col2of4 {
+    flex: 1;
+}
+.col2of3,
+ .col2of4 {
+    flex: 2;
+}
+}

@@ -71,7 +71,10 @@ p {
   text-align: center;
 }
 /* Project Section */
+body {
+  background-color: aliceblue;
 
+}
 
 
 
@@ -88,6 +91,12 @@ a:link {
   /* link decoration */
   a {
     text-decoration: none;
+  }
+  /* Wireframe */
+  iframe {
+    margin: auto;
+    display: block;
+    text-align: center;
   }
   /*Larger Resolution*/
 @media only screen and (min-width: 600px) {
