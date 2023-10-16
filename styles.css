@@ -79,15 +79,23 @@ body {
   background-color: aliceblue;
 
 }
+.project-headers {
+  padding: 1%;
+}
 #project-img {
   width: 200px;
   height: 200px;
-  margin: 1%;
+  margin: 10px;
+   background-color: white;
 }
 #project-columns {
-  background-color: aquamarine;
-  margin: 2%;
+  background-color: #8795C9;
+  height: 300px;
+  width: 300px;
+  
+  
 }
+
 
 
 /* unvisited link */
@@ -116,8 +124,7 @@ a:link {
       display: flex;
   }
   .columns, 
-  #main-columns, 
-  #project-columns {
+  #main-columns {
       display: flex;
       flex-wrap: wrap;
       align-content: space-between;
