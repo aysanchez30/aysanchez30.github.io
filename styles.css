@@ -22,7 +22,8 @@ body {
 .col5,
 .col6,
 .col7,
-.col8 {
+.col8,
+.col9 {
   background-color: #eddcd9;
   padding: 5px;
   margin: 5px;
@@ -79,6 +80,10 @@ body {
   background-color: aliceblue;
 
 }
+#project-content {
+  background-color: #615B5F;
+  margin: 5%;
+}
 .project-headers {
   padding: 1%;
 }
@@ -95,8 +100,6 @@ body {
   
   
 }
-
-
 
 /* unvisited link */
 a:link {
@@ -137,7 +140,8 @@ a:link {
   .col5, 
   .col6,
   .col7,
-  .col8, 
+  .col8,
+  .col9, 
   #project,
   #assignments {
     flex-wrap: wrap;
