@@ -46,7 +46,7 @@ p {
     margin: 10px;
   }
 #content {
-    background: #264143;
+    background: #43263c;
     width: 100%;
     margin:auto;
     padding:0px 2px;
@@ -77,12 +77,15 @@ p {
 }
 /* Project Page */
 body {
-  background-color: aliceblue;
+  background-color: rgb(250, 218, 246);
 
 }
 #project-content {
-  background-color: #615B5F;
+  background-color: rgb(248, 126, 219);
   margin: 5%;
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
 }
 .project-headers {
   padding: 1%;
@@ -91,14 +94,16 @@ body {
   width: 200px;
   height: 200px;
   margin: 10px;
-   background-color: white;
+  background-color: white;
 }
 #project-columns {
-  background-color: #8795C9;
-  height: 300px;
+  background-color: #881e61;
+  height: auto;
   width: 300px;
+  text-align: center;
+  margin: 2%;
   
-  
+
 }
 
 /* unvisited link */
