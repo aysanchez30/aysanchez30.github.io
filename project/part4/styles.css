@@ -92,14 +92,16 @@ h2 {
 }
 .contact-columns{
     display: flex;
-    flex: 2;
-    background-color: none;
+    margin: 5%;
+    
 }
 .contact-col2of2 {
-    background-color: pink;
-    padding: 5px;
+    background-color: grey;
+    padding: 15px;
     margin: 5px;
     border-radius: 2px;
+    width: 600px;
+    
 }
 .contact-col1of3, 
 .contact-col2of3, 
@@ -112,6 +114,21 @@ h2 {
 li {
     list-style-type: none;
     text-align: center;
+}
+.contact-flex {
+    width: 600px;
+}
+/* Form on COntact Page */
+.form-container {
+    text-align: left; /* Align labels to the left */
+    padding-left: 20px;
+}
+
+/* Style individual labels */
+form label {
+    display: block; /* Make labels appear on a new line */
+    font-weight: bold; /* Optionally make labels bold */
+    margin-bottom: 5px; /* Add some space between labels and input fields */
 }
 
 /* Main Navigation */
@@ -218,19 +235,4 @@ li {
     #hamburger div {
         display: none;
     }
-/* Contact Page */
-.contact-flex,
-.contact-columns {
-    display: flex;
-}
-.contact-col1of2,
-.contact-col1of3, 
-.contact-col1of4, 
-.contact-col2of4 {
-    flex: 1;
-}
-.col2of3,
- .col2of4 {
-    flex: 2;
-}
 }

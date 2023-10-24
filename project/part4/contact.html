@@ -42,23 +42,44 @@
                 <section class="contact-col1of3">
                     <h2>Hours of Operation</h2>
                     <ul>
-                        <li>Monday-Friday 8:00am-5pm</li>
-                        <li> Saturday: CLosed</li>
-                        <li> Sunday: CLosed</li>
+                        <li>Monday-Friday 8:00am-5:00pm</li>
+                        <li> Saturday: Closed</li>
+                        <li> Sunday: Closed</li>
                     </ul>
                 </section>
 
                 <section class="contact-col1of3">
                     <h2>Location</h2>
                 </section>
+            </div> 
             </section>
 
                 <section class="contact-col2of2">
                 <header class="contact-padded">
                     <h2>Send Us a Message!</h2>
                 </header>
-                <p>Sollicitudin nibh sit amet commodo nulla facilisi nullam. Tincidunt lobortis feugiat vivamus at augue eget arcu dictum. Vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Nulla porttitor massa id neque aliquam. Vitae congue eu consequat ac felis. Et magnis dis parturient montes nascetur ridiculus. Magna fringilla urna porttitor rhoncus dolor purus non enim praesent. Elit at imperdiet dui accumsan sit amet nulla facilisi.</p>
-            </div> 
+            <div id="form-container">
+                <form action="https://api.web3forms.com/submit" method="POST">
+
+                    <input type="hidden" name="access_key" value="47d92bfe-e3ca-4495-b34f-034fd2b6de7e">
+                    
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea name="message" id="message" required></textarea>
+                    
+                    <div class="h-captcha" data-captcha="true"></div>
+                    <button type="submit">Send Message!</button>
+                
+                </form>
+                
+                
+                <script src="https://web3forms.com/client/script.js" async defer></script>
+            </div>
             </div>
         </section>  
     </body>
