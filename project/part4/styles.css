@@ -117,7 +117,26 @@ li {
 }
 .contact-flex {
     width: 600px;
+} 
+.number-column, 
+.email-column {
+    background-color: aqua;
+    text-align: center;
+    height: 200px;
+    width: 200px
 }
+/* Map on Contact */
+iframe {
+    width: 550px;
+    height: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+
+
+
 /* Form on COntact Page */
 .form-container {
     text-align: left; /* Align labels to the left */
