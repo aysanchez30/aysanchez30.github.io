@@ -23,7 +23,8 @@ body {
 .col6,
 .col7,
 .col8,
-.col9 {
+.col9,
+.col10 {
   background-color: #eddcd9;
   padding: 5px;
   margin: 5px;
@@ -147,6 +148,7 @@ a:link {
   .col7,
   .col8,
   .col9, 
+  .col10,
   #project,
   #assignments {
     flex-wrap: wrap;
