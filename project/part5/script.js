@@ -1,36 +1,50 @@
-document.addEventListener("DOMContentLoaded", function() {
-    // Fetch and parse the JSON data
-    const url = "https://aysanchez30.github.io/project/part5/about.json"
-        .then(response => response.json())
-        .then(data => {
-            // Display mission statement
-            document.getElementById("mission-content").textContent = data["Mission Statement"]["content"];
+const getTeam = async () => {
+    const url = "https://aysanchez30.github.io/project/part5/about.json";
+    try {
+        const response = await fetch(url);
+        return await response.json();
+    } catch (error) {
+        console.error('Error:', error);
+    }
+}
 
-            // Display team members
-            const teamMembers = data["Team"];
-            const teamContainer = document.getElementById("team-members");
+const showTeam = async () => {
+    const team = await getTeam();
+    const teamList = document.getElementById("team-members");
+    
+    team.forEach(member => {
+        teamList.appendChild(getTeamInfo(member));
+    });
+};
 
-            teamMembers.forEach(member => {
-                const memberDiv = document.createElement("div");
-                memberDiv.classList.add("team-member");
+const getTeamInfo = (member) => {
+    const section = document.createElement("section");
 
-                const img = document.createElement("img");
-                img.src = member.img;
+    const container1 = document.createElement("div");
+    const container2 = document.createElement("div");
+    container2.className = "container2";
 
-                const name = document.createElement("h3");
-                name.textContent = member.name;
+    const h2 = document.createElement("h2");
+    h2.innerHTML = member.name;
 
-                const description = document.createElement("p");
-                description.textContent = member.description;
+    const description = document.createElement("p");
+    description.innerHTML = member.description;
 
-                memberDiv.appendChild(img);
-                memberDiv.appendChild(name);
-                memberDiv.appendChild(description);
+    const img = document.createElement("img");
+    img.src = member.img;
 
-                teamContainer.appendChild(memberDiv);
-            });
-        })
-        .catch(error => {
-            console.error("Error fetching JSON data: ", error);
-        });
-});
+    section.appendChild(h2);
+    section.appendChild(container1);
+    section.appendChild(container2);
+
+    container1.appendChild(img);
+
+    container2.appendChild(h2);
+    container2.appendChild(description);
+
+    return section;
+};
+
+window.onload = () => {
+    showTeam();
+}
