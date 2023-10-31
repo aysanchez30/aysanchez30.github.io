@@ -90,6 +90,7 @@ body {
 }
 .project-headers {
   padding: 1%;
+  margin:3px;
 }
 #project-img {
   width: 200px;

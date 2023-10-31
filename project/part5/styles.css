@@ -1,0 +1,328 @@
+/* Main Structure */
+body {
+    background-color: #FEF8FC;
+}
+
+#main-header {
+    background-color: #F9B7DE;
+    border-radius: 100px;
+    margin-bottom: 2%;    
+}
+#main-content {
+    background-color: #FEF8FC;
+    padding: 2%;
+}
+.padded-area {
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+}
+/* About Page */
+#about-statement {
+    font-family: "Trirong", serif, bold;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+}
+#team-section {
+    font-family: "Trirong", serif, bold;
+    padding-left: 5%;
+    padding-right: 40%;
+    padding-top: 1%;
+    padding-bottom: 8%;
+}
+#team-section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#team-section li {
+    padding-top: 4%;
+}
+#teams-img {
+    border-width: 3px;
+    border-color: black;
+}
+
+/* Services Page*/
+#services-main {
+    padding-right: 3%;
+    padding-left: 3%
+}
+#services-header {
+    background-color: pink;
+    font-family: "Trirong", serif, bold;
+    padding-right: 5%;
+    padding-left: 2%;
+    text-align: left;
+}
+
+#services-container1,
+#services-container2,
+#services-container3,
+#services-container4 {
+    background-color: pink;
+    font-family: "Trirong", serif, bold;
+    text-align: left;
+    margin: 2%;
+    padding: 2%;
+    
+}
+#service-img1,
+#service-img2, 
+#service-img3,
+#service-img4 {
+    margin-left: 88%;
+    display: flex;
+    max-width: 100%;
+
+}
+/* Contact Page */
+h2 {
+    text-align: center;
+}
+#contact-main {
+    font-family: "Trirong", serif, bold;
+}
+.contact-padded {
+    padding: 5px;
+    margin:auto;
+}
+.contact-columns{
+    display: flex;
+    margin: 5%;
+    max-width: 100%;
+    
+}
+.contact-col2of2 {
+    background-color: grey;
+    padding: 15px;
+    margin: 7px;
+    border-radius: 50px;
+    width: 600px;
+    
+}
+.contact-col1of3, 
+.contact-col2of3, 
+.contact-col3of3 {
+    background-color: #eee;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 50px;
+}
+li {
+    list-style-type: none;
+    text-align: center;
+}
+.contact-flex {
+    width: 600px;
+} 
+.number-column, 
+.email-column {
+    text-align: center;
+    height: 160px;
+    width: 300px;
+    margin: 2%;
+}
+#flex-contact-info {
+    display: flex;
+    flex: 2;
+}
+.h-captcha {
+    height: auto;
+    width: auto;
+}
+.contact-button {
+    font-family: "Trirong", serif, bold;
+    width: 200px; 
+    height:40px; 
+    font-size: 15px; 
+    background-color: white;
+    border-color: black;
+    border-width: 2px;
+    margin-top: 42%;
+    margin-left: 60%;
+    max-width: 100%;
+    
+}
+/* Map on Contact */
+iframe {
+    width: 535px;
+    height: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+    max-width: 100%;
+}
+
+
+
+
+
+/* Form on contact page */
+.form-container {
+    text-align: left; 
+    padding-left: 20px;
+}
+
+form label {
+    display: block; 
+    font-weight: bold; 
+    margin-bottom: 5px; 
+}
+
+/* Main Navigation */
+#nav-exercises ul {
+    padding-left: 0px;
+    margin: 0;
+}
+#nav-exercises li{
+    list-style-type: none;
+    padding: 0px;
+    background-color:#FEF8FC;
+    border-bottom: black;
+}
+#nav-exercises a {
+    text-decoration:none;
+    color: black;
+}
+#nav-exercises a:hover {
+    border-bottom: 1px solid grey;
+}
+
+
+
+/* Parsing Jason CSS*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #555;
+}
+
+#mission-statement {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f5f5f5;
+}
+
+#team {
+    margin-top: 20px;
+}
+
+.team-member {
+    border: 1px solid #ccc;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #f5f5f5;
+}
+
+.team-member img {
+    max-width: 100px;
+}
+
+.team-member h3 {
+    color: #333;
+}
+
+
+
+
+
+
+/*Button Nav */
+.schedule-button {
+    font-family: "Trirong", serif, bold;
+    width: 600px; 
+    height:60px; 
+    font-size: 25px; 
+    background-color: #F983CA;
+    border-color: black;
+    border-width: 1px;
+    white-space: nowrap;
+  }
+.button-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 10%; 
+}
+/* Images */
+#main-img {
+    padding-bottom: 2%;
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+}
+.cart-img {
+    padding: 1px;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    left: 95%;
+}
+
+/* Typography*/
+#main-header {
+    font-family: "Trirong", serif;
+    font-size: large;
+    color: black;
+}
+#nav-exercises a {    
+    font-family: palatino;
+    font-size: small;
+    color: black;
+
+}
+
+#main-header h1,
+#main-content h1, 
+#nav-exercises,
+.schedule-button {
+    text-align: center;
+}
+#main-services {
+    font-family: "Trirong", serif;
+    font-size: 18px;
+     padding-left: 7%;
+    padding-right: 7%;
+
+}
+#main-services h2 {
+    font-family: "Trirong", serif, bold;
+    font-size: 22px;
+    padding-bottom: 1%;
+    padding-top: 3%;
+
+}
+
+#hamburger div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+}
+
+
+/*Larger Resolution*/
+@media only screen and (min-width: 600px) {
+    #nav-exercises ul {
+        display: flex;
+    }
+    #nav-exercises li {
+        flex: 1;
+    }
+    #hamburger div {
+        display: none;
+    }
+}
