@@ -16,11 +16,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
             data["Team"].forEach(member => {
                 const memberElement = document.createElement("div");
-                memberElement.innerHTML = `
+                const textContainer = document.createElement("div"); 
+                const imageContainer = document.createElement("div");
+                
+                textContainer.innerHTML = `
                     <h2>${member.name}</h2>
                     <p>${member.description}</p>
-                    <img src="${member.img}" alt="${member.name}">
                 `;
+
+                const imgElement = document.createElement("img");
+                imgElement.src = member.img;
+                imgElement.alt = member.name;
+
+                memberElement.appendChild(textContainer);
+                memberElement.appendChild(imgElement);
+
                 teamMembersElement.appendChild(memberElement);
             });
         })

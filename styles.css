@@ -15,15 +15,15 @@ body {
   margin: 2%;
 }
 
-.col1,  
-.col2,
+.col1,
+.col2, 
 .col3,
 .col4, 
-.col5,
+.col5, 
 .col6,
 .col7,
 .col8,
-.col9,
+.col9, 
 .col10 {
   background-color: #eddcd9;
   padding: 5px;
@@ -75,6 +75,15 @@ p {
 }
 .description {
   text-align: center;
+  max-width: 100%;
+}
+.repo-link {
+  font-size: 16px;
+  text-align: center;
+  padding-left: 20%;
+  text-decoration: underline;
+  display: inline;
+
 }
 /* Project Page */
 body {
@@ -140,16 +149,16 @@ a:link {
       align-content: space-between;
     }
 
-  .col1,
-  .col2, 
-  .col3,
-  .col4, 
-  .col5, 
-  .col6,
-  .col7,
-  .col8,
-  .col9, 
-  .col10,
+    .col1,
+    .col2, 
+    .col3,
+    .col4, 
+    .col5, 
+    .col6,
+    .col7,
+    .col8,
+    .col9, 
+    .col10,
   #project,
   #assignments {
     flex-wrap: wrap;
