@@ -95,6 +95,8 @@ body {
   padding: 1%;
   display: flex;
   flex-wrap: wrap;
+  max-width: 100%;
+  padding-left: 90px;
 }
 .project-headers {
   padding: 1%;
