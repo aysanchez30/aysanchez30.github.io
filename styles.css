@@ -26,7 +26,8 @@ body {
 .col9, 
 .col10, 
 .col11,
-.col12 {
+.col12,
+.col13 {
   background-color: #eddcd9;
   padding: 5px;
   margin: 5px;
@@ -164,6 +165,7 @@ a:link {
     .col10,
     .col11,
     .col12,
+    .col13,
   #project,
   #assignments {
     flex-wrap: wrap;
