@@ -37,4 +37,5 @@ document.addEventListener("DOMContentLoaded", () => {
         .catch(error => {
             console.error("Error fetching or displaying JSON data:", error);
         });
+
 });

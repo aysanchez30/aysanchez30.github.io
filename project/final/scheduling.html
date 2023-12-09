@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head class="main-header">
+    <title>Fresh Renewed Wellness</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong"> 
+</head>
+
+    <body id="schedule-body">
+        <header id="main-header" class="padded-area">
+            <h1>Fresh Renewed Wellness</h1>
+        </header>
+        <div>
+            <nav id="main-nav">
+                <div id="hamburger">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
+            <nav id="nav-exercises">
+                <ul>
+                    <li><a href="main.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <li><a href= "scheduling.html">Book Now!</a></li>
+
+
+                </ul>
+            </nav>
+        </div>
+        <header id="schedule-header">Cart
+        </header>
+    
+        <div id="add-edit-appointment-container" class="dialog transparent">
+        
+    
+            <form id="add-edit-appointment-form" method="post">
+                <input type="hidden" name="_id" value="-1" />
+                <p>
+                    <label for="name ">Service(s):</label>
+                    <input type="text" id="name" name="name" required />
+                </p>
+                <form action="submit_form.php" method="post">
+                    <label for="selectOption">Select Time:</label>
+                    <select id="selectOption" name="selectedOption">
+                        <option value="option1">9:00am</option>
+                        <option value="option2">11:00am</option>
+                        <option value="option3">12:00am</option>
+                        <option value="option4">1:00pm</option>
+                        <option value="option5">2:00pm</option>
+                        <option value="option6">3:00pm</option>
+                        <option value="option7">4:00pm</option>
+                        <option value="option8">5:00pm</option>
+
+                    </select>
+    
+                <p>
+                    <button class="schedule-button" type="submit">Schedule Appointment</button>
+                </p>
+            </form>
+        </div>
+    </body>
+</html>
