@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const Joi = require("joi");
 const multer = require("multer");
-app.use(express.static("project/final"));
+app.use(express.static("/project/final"));
 app.use(express.json());
 const cors = require("cors");
 app.use(cors());
